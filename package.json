@@ -1,5 +1,5 @@
 {
-  "name": "markdown-it-footnote",
+  "name": "@egihasdi/markdown-it-footnote",
   "version": "4.0.0",
   "description": "Footnotes for markdown-it markdown parser.",
   "keywords": [
@@ -8,7 +8,7 @@
     "markdown",
     "footnotes"
   ],
-  "repository": "markdown-it/markdown-it-footnote",
+  "repository": "egihasdi/markdown-it-footnote",
   "license": "MIT",
   "main": "dist/index.cjs.js",
   "module": "index.mjs",
@@ -31,7 +31,7 @@
     "lint": "eslint .",
     "build": "rollup -c",
     "test": "npm run lint && npm run build && c8 --exclude dist --exclude test -r text -r html -r lcov mocha",
-    "prepublishOnly": "npm run lint && npm run build"
+    "prepublishOnly": "npm run build"
   },
   "devDependencies": {
     "@rollup/plugin-babel": "^6.0.4",
